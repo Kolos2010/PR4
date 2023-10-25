@@ -8,7 +8,7 @@
 
 .sidebar {
   width: 320px;
-  height: 1024px;
+  height: 770px;
   background-color: white;
   box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.2);
   position: absolute;
@@ -55,4 +55,20 @@
 .sidebar__list--item {
   margin-top: 20px;
   font-family: TT Lakes;
+}
+
+.sidebar__footer--icons{
+  width: 60%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebar__footer--adress{
+  margin-left: 40px;
+  font-family: TT Lakes;
+}
+
+.sidebar__footer{
+  margin-top: 240px;
 }
