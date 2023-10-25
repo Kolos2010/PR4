@@ -72,3 +72,14 @@
 .sidebar__footer{
   margin-top: 240px;
 }
+
+
+ul li:focus{
+  position: relative;
+  border-left: 4px solid aquamarine;
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: -40px;
+
+}
